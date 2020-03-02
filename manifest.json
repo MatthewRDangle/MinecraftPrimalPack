@@ -1,0 +1,18 @@
+{
+  "format_version": 1, 
+  "header": { 
+    "description": "Primal Realm Admin Functions",
+    "name": "Primal Realm Admin Func", 
+    "uuid": "499ee881-160c-4979-8203-19a3ee8a7056", 
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 7, 0]
+  }, 
+  "modules": [ 
+    { 
+      "uuid": "d58fc15f-068e-43bf-ab74-d1048c3bac34", 
+      "description": "Not Used",
+      "type": "data",
+      "version": [1, 0, 0]
+    }
+  ]
+}
