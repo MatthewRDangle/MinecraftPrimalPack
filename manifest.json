@@ -1,8 +1,8 @@
 {
   "format_version": 1, 
   "header": { 
-    "description": "Primal Realm Admin Functions",
-    "name": "Primal Realm Admin Func", 
+    "description": "Brings new mobs and admin functions for the Primal Realm.",
+    "name": "Primal Realm", 
     "uuid": "499ee881-160c-4979-8203-19a3ee8a7056", 
     "version": [1, 1, 0],
     "min_engine_version": [1, 7, 0]
