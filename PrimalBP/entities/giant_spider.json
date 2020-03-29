@@ -90,7 +90,7 @@
           "priority": 3,
           "speed_multiplier": 1.0,
           "track_target": true,
-          "reach_multiplier": 1.2
+          "reach_multiplier": 1
         }
       }
     },
@@ -120,8 +120,8 @@
         "height": 0.9
       },
       "minecraft:health": {
-        "value": 30,
-        "max": 30
+        "value": 100,
+        "max": 100
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
