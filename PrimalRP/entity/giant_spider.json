@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.12.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "primal:giant_spider",
@@ -7,11 +7,10 @@
         "default": "giant_spider"
       },
       "textures": {
-        "default": "textures/entity/giant_spider/giant_spider"
+        "default": "textures/primal/entity/giant_spider/giant_spider"
       },
       "geometry": {
-        "default": "geometry.giant_spider",
-		"armor": "geometry.giant_spider.armor"
+        "default": "geometry.giant_spider"
       },
 	  "scripts": {
         "pre_animation": [
@@ -36,9 +35,9 @@
       ],
       "render_controllers": [ "controller.render.giant_spider" ],
       "spawn_egg": {
-        "base_color": "#ffffff",
-        "overlay_color": "#000000"
-      },
+          "texture": "giant_spider",
+          "texture_index": 0
+      }
       "enable_attachables": true
     }
   }

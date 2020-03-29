@@ -3,6 +3,6 @@
     "version": "1.0.0",
 
 	"foo:entity": {},
-	"giant_spider:entity_alphatest": {}
+	"giant_spider:entity": {}
   }
 }

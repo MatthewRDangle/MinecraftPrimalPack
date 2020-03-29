@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "primal",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		
+		"primal_egg": {
+			"textures": [
+				"textures/primal/items/egg_giant_spider"
+			]
+		}
+	}
+}

@@ -7,7 +7,7 @@
         "default": "foo"
       },
       "textures": {
-        "default": "textures/entity/foo/foo"
+        "default": "textures/primal/entity/foo/foo"
       },
       "geometry": {
         "default": "geometry.foo",
@@ -36,8 +36,8 @@
       ],
       "render_controllers": [ "controller.render.foo" ],
       "spawn_egg": {
-        "base_color": "#ffffff",
-        "overlay_color": "#000000"
+        "base_color": "#87b5ff",
+        "overlay_color": "#87b5ff"
       },
       "enable_attachables": true
     }
