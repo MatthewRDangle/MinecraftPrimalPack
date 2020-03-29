@@ -1,0 +1,60 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.giant_spider.move": {
+      "states": {
+        "default": {
+          "animations": [
+            { "move": [] },
+            { "base": [] }
+          ]
+        }
+      }
+    },
+    "controller.animation.giant_spider.look_at_target": {
+      "states": {
+        "default": {
+          "animations": [ { "look_at_target_default": [] } ],
+          "transitions": [
+            { "gliding": "query.is_gliding" },
+            { "swimming": "query.is_swimming" }
+          ]
+        },
+        "gliding": {
+          "animations": [ { "look_at_target_gliding": [] } ],
+          "transitions": [
+            { "swimming": "query.is_swimming" },
+            { "default": "!query.is_gliding" }
+          ]
+        },
+        "swimming": {
+          "animations": [ { "look_at_target_swimming": [] } ],
+          "transitions": [
+            { "gliding": "query.is_gliding" },
+            { "default": "!query.is_swimming" }
+          ]
+        }
+      }
+    },
+    "controller.animation.giant_spider.holding": {
+      "states": {
+        "default": {
+          "animations": [
+            { "holding": [] }
+          ]
+        }
+      }
+    },
+    "controller.animation.giant_spider.bow_and_arrow": {
+      "states": {
+        "default": {
+          "transitions": [ { "bow_and_arrow": "variable.is_bow_and_arrow" } ]
+        },
+        "bow_and_arrow": {
+          "animations": [ { "bow_and_arrow": [] } ],
+          "transitions": [ { "default": "!variable.is_bow_and_arrow" } ]
+        }
+      }
+    }
+  }
+}

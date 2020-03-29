@@ -2,15 +2,14 @@
   "format_version": "1.8.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "primal:giant_spider",
+      "identifier": "tutorial:foo",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": true
     },
   
     "component_groups": {
-    	
-      "minecraft:giant_spider_aggro": {
+      "minecraft:foo_aggro": {
         "minecraft:angry": {
           "duration": -1,
           "broadcastAnger": true,
@@ -32,7 +31,6 @@
 		  ]
 		}
       },
-      
       "bow": {
         "minecraft:behavior.ranged_attack": {
           "attack_interval_min": 1,
@@ -60,7 +58,7 @@
 
     "components": {
       "minecraft:type_family": {
-    	"family": [ "spider", "monster", "mob", "arthropod" ]
+        "family": [ "foo", "monster" ]
       },
       "minecraft:breathable": {
         "totalSupply": 15,
@@ -80,10 +78,13 @@
         "value": 0.3
       },
       "minecraft:behavior.float": {
-        "priority": 1
+        "priority": 0
       },
       "minecraft:navigation.walk": {
-        "can_path_over_water": true
+        "can_pass_doors": true,
+        "can_open_doors": true,
+        "can_path_over_water": true,
+        "avoid_damage_blocks": true
       },
       "minecraft:movement.basic": {
       },
@@ -92,16 +93,16 @@
       "minecraft:can_climb": {
       },
 	  "minecraft:loot": {
-	    "table": "loot_tables/entities/giant_spider.json"
+	    "table": "loot_tables/entities/foo.json"
 	  },
       "minecraft:equipment": {
-        "table": "loot_tables/entities/giant_spider_gear.json"
+        "table": "loot_tables/entities/foo_gear.json"
       },
       "minecraft:behavior.hurt_by_target": {
         "priority": 3
       },
       "minecraft:behavior.nearest_attackable_target": {
-        "priority": 2,
+        "priority": 1,
 		"within_radius": 15,
         "reselect_targets": false,
 		"must_see_forget_duration": 3.0,
@@ -147,14 +148,14 @@
       "minecraft:become_aggro": {
         "add": {
           "component_groups": [
-            "minecraft:giant_spider_aggro"
+            "minecraft:foo_aggro"
           ]
         }
       },
       "minecraft:stop_aggro": {
         "remove": {
           "component_groups": [
-            "minecraft:giant_spider_aggro"
+            "minecraft:foo_aggro"
           ]
         }
       },

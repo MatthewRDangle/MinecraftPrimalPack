@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "primal:giant_spider",
+      "identifier": "tutorial:foo",
       "population_control": "monster"
     },
     "conditions": [

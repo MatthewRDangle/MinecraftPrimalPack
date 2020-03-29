@@ -1,0 +1,4 @@
+entity.tutorial:foo.name=Foo
+item.spawn_egg.entity.tutorial:foo.name=Spawn Foo
+entity.primal:giant_spider.name=Giant Spider
+item.spawn_egg.entity.primal:giant_spider.name=Spawn Giant Spider
