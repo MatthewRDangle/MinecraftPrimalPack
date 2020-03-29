@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "minecraft:spider",
+      "identifier": "primal:giant_spider",
       "population_control": "monster"
     },
     "conditions": [
@@ -15,23 +15,23 @@
 
         "minecraft:brightness_filter": {
           "min": 0,
-          "max": 4,
+          "max": 7,
           "adjust_for_weather": true
         },
 
         "minecraft:difficulty_filter": {
-          "min": "hard",
+          "min": "easy",
           "max": "hard"
         },
 
         "minecraft:weight": {
-          "default": 3
+          "default": 25
         },
         
         "minecraft:herd": {
         	"min_size": 1,
-        	"min_size": 3
-        }
+        	"max_size": 3
+        },
         
         "minecraft:biome_filter": {
             "test": "has_biome_tag", "operator":"==", "value": "monster"
