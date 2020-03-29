@@ -1,18 +1,18 @@
 {
-	"format_version": 1,
+	"format_version": 2,
 	"header": {
 	    "name": "Primal",
 	    "description": "Brings new mobs and admin functions for the Primal Realm.",
 	    "uuid": "9b649291-d5a8-4d46-8c0a-2f782c0cc058",
 	    "version": [1, 1, 0],
-	    "min_engine_version": [ 1, 7, 0 ]
+	    "min_engine_version": [1, 14, 0]
 	},
 	"modules": [
 	    {
 	        "uuid": "5d1f5c53-3905-4213-aff3-6abcbab33fba",
 	        "description": "Not Used",
 	        "type": "resources",
-	        "version": [1, 1, 0]
+	        "version": [1, 14, 0]
 	    }
 	]
 }

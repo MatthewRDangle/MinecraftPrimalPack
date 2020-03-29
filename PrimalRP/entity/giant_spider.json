@@ -1,44 +1,30 @@
 {
-  "format_version": "1.12.0",
+  "format_version": "1.8.0",
   "minecraft:client_entity": {
-    "description": {
-      "identifier": "primal:giant_spider",
-      "materials": {
-        "default": "giant_spider"
-      },
-      "textures": {
-        "default": "textures/primal/entity/giant_spider/giant_spider"
-      },
-      "geometry": {
-        "default": "geometry.giant_spider"
-      },
-	  "scripts": {
-        "pre_animation": [
-          "variable.tcos0 = (Math.cos(global.anim_pos * 38.17) * global.anim_speed / variable.gliding_speed_value) * 57.3;",
-          "variable.tcos1 = -variable.tcos0;"
-        ]
-	  },
-      "animations": {
-		"base": "animation.giant_spider.base_pose",
-        "look_at_target_default": "animation.giant_spider.look_at_target.default",
-        "look_at_target_gliding": "animation.giant_spider.look_at_target.gliding",
-        "look_at_target_swimming": "animation.giant_spider.look_at_target.swimming",
-        "move": "animation.giant_spider.move",
-        "holding": "animation.giant_spider.holding",
-        "bow_and_arrow": "animation.giant_spider.bow_and_arrow"
-      },
-      "animation_controllers": [
-		{ "move": "controller.animation.giant_spider.move" },
-        { "look_at_target": "controller.animation.giant_spider.look_at_target" },
-        { "holding": "controller.animation.giant_spider.holding" },
-        { "bow_and_arrow": "controller.animation.giant_spider.bow_and_arrow" }
-      ],
-      "render_controllers": [ "controller.render.giant_spider" ],
-      "spawn_egg": {
-          "texture": "giant_spider",
-          "texture_index": 0
-      }
-      "enable_attachables": true
-    }
+	    "description": {
+		      "identifier": "primal:giant_spider",
+		      "materials": {
+		        "default": "giant_spider"
+		      },
+		      "textures": {
+		        "default": "textures/entity/giant_spider"
+		      },
+		      "geometry": {
+		        "default": "geometry.giant_spider"
+		      },
+		      "animations": {
+		          "default_leg_pose": "animation.giant_spider.default_leg_pose",
+		          "look_at_target": "animation.giant_spider.look_at_target",
+		          "walk": "animation.giant_spider.walk"
+		      },
+		      "animation_controllers": [
+		         { "move": "controller.animation.giant_spider.move" }
+		      ],
+		      "render_controllers": [ "controller.render.giant_spider" ],
+		      "spawn_egg": {
+		          "texture": "primal_eggs",
+		          "texture_index": 0
+		      }
+	    }
   }
 }
