@@ -1,0 +1,20 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"primal:giant_spider": {
+				"volume": 1.0,
+				"pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.giant_spider.say",
+					"hurt": "mob.giant_spider.say",
+					"death": "mob.giant_spider.death",
+					"step": {
+						"sound": "mob.giant_spider.step",
+						"volume": 1.0,
+						"pitch": 1.0
+					}
+				}
+			}
+		}
+	}
+}
