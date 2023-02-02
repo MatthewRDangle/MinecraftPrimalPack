@@ -2,7 +2,6 @@
   "materials": {
     "version": "1.0.0",
 
-	"foo:entity_alphatest": {},
 	"giant_spider:entity": {}
   }
 }
