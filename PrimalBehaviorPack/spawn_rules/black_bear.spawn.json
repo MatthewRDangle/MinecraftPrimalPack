@@ -24,9 +24,9 @@
         },
 
         "minecraft:biome_filter": [
-          {"test": "has_biome_tag", "operator":"==", "value": "mountain"},
           {"test": "has_biome_tag", "operator":"==", "value": "forest"},
-          {"test": "has_biome_tag", "operator":"!=", "value": "ocean"}
+          {"test": "has_biome_tag", "operator":"!=", "value": "ice"},
+          {"test": "has_biome_tag", "operator":"!=", "value": "frozen"}
         ]
       }
     ]
