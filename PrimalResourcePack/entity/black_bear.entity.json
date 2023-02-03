@@ -23,13 +23,13 @@
 			},
 			"animation_controllers": [
 				{
-					"move": "controller.animation.polarbear.move"
+					"move": "controller.animation.black_bear.move"
 				},
 				{
-					"baby": "controller.animation.polarbear.baby"
+					"baby": "controller.animation.black_bear.baby"
 				}
 			],
-			"render_controllers": ["controller.render.polarbear"],
+			"render_controllers": ["controller.render.black_bear"],
 			"spawn_egg": {
 				"base_color": "#2b282a",
 				"overlay_color": "#684e4c"

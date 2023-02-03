@@ -1,23 +1,23 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"bear:black_bear": {
+			"primal:black_bear": {
 				"events": {
-					"ambient": "mob.polarbear.idle",
-					"ambient.baby": "mob.polarbear_baby.idle",
-					"death": "mob.polarbear.death",
+					"ambient": "mob.black_bear.idle",
+					"ambient.baby": "mob.black_bear_baby.idle",
+					"death": "mob.black_bear.death",
 					"hurt": {
-						"sound": "mob.polarbear.hurt",
+						"sound": "mob.black_bear.hurt",
 						"volume": 0.7
 					},
 					"mob.warning": {
 						"pitch": 1,
-						"sound": "mob.polarbear.warning",
+						"sound": "mob.black_bear.warning",
 						"volume": 1.2
 					},
 					"step": {
 						"pitch": 1,
-						"sound": "mob.polarbear.step",
+						"sound": "mob.black_bear.step",
 						"volume": 0.7
 					}
 				},
