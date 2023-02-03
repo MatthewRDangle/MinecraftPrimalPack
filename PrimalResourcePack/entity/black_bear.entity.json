@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "bear:black_bear",
+			"identifier": "primal:black_bear",
 			"materials": {
 				"default": "entity_alphatest"
 			},
