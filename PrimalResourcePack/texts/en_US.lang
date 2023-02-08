@@ -1,3 +1,7 @@
 ## Black Bear
 entity.primal:black_bear.name=Black Bear
 item.spawn_egg.entity.primal:black_bear.name=Spawn Black Bear
+
+## Titan Spider
+entity.primal:titan_spider.name=Titan Spider
+item.spawn_egg.entity.primal:titan_spider.name=Spawn Titan Spider

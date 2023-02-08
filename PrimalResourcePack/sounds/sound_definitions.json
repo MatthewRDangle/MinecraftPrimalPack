@@ -59,6 +59,37 @@
         "sounds/mob/black_bear_baby/idle3",
         "sounds/mob/black_bear_baby/idle4"
       ]
+    },
+    "mob.titan_spider.death" : {
+      "__use_legacy_max_distance" : "true",
+      "category" : "hostile",
+      "sounds" : [ "sounds/mob/titan_spider/death" ]
+    },
+    "mob.titan_spider.say" : {
+      "__use_legacy_max_distance" : "true",
+      "category" : "hostile",
+      "sounds" : [
+        "sounds/mob/titan_spider/say1",
+        "sounds/mob/titan_spider/say2",
+        "sounds/mob/titan_spider/say3",
+        {
+          "load_on_low_memory" : true,
+          "name" : "sounds/mob/titan_spider/say4"
+        }
+      ]
+    },
+    "mob.titan_spider.step" : {
+      "__use_legacy_max_distance" : "true",
+      "category" : "hostile",
+      "sounds" : [
+        {
+          "load_on_low_memory" : true,
+          "name" : "sounds/mob/titan_spider/step1"
+        },
+        "sounds/mob/titan_spider/step2",
+        "sounds/mob/titan_spider/step3",
+        "sounds/mob/titan_spider/step4"
+      ]
     }
   }
 }

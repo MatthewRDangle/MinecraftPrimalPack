@@ -23,6 +23,20 @@
 				},
 				"pitch": [0.8, 1.2],
 				"volume": 1
+			},
+			"primal:titan_spider" : {
+				"events" : {
+					"ambient" : "mob.titan_spider.say",
+					"death" : "mob.titan_spider.death",
+					"hurt" : "mob.titan_spider.say",
+					"step" : {
+						"pitch" : [0.90, 1.10],
+						"sound" : "mob.titan_spider.step",
+						"volume" : 0.350
+					}
+				},
+				"pitch" : [0.80, 1.20],
+				"volume" : 1
 			}
 		}
 	}
