@@ -59,36 +59,6 @@
         "sounds/mob/black_bear_baby/idle3",
         "sounds/mob/black_bear_baby/idle4"
       ]
-    },
-    "mob.giant_spider.death": {
-      "category": "hostile",
-      "sounds": [
-        "sounds/mob/giant_spider/death"
-      ]
-    },
-    "mob.giant_spider.say": {
-      "category": "hostile",
-      "sounds": [
-        "sounds/mob/giant_spider/say1",
-        "sounds/mob/giant_spider/say2",
-        "sounds/mob/giant_spider/say3",
-        {
-          "name": "sounds/mob/giant_spider/say4",
-          "load_on_low_memory": true
-        }
-      ]
-    },
-    "mob.giant_spider.step": {
-      "category": "hostile",
-      "sounds": [
-        {
-          "name": "sounds/mob/giant_spider/step1",
-          "load_on_low_memory": true
-        },
-        "sounds/mob/giant_spider/step2",
-        "sounds/mob/giant_spider/step3",
-        "sounds/mob/giant_spider/step4"
-      ]
     }
   }
 }
