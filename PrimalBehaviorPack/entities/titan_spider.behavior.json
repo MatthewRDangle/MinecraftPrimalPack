@@ -83,6 +83,17 @@
             "target": "self"
           }
         },
+        "minecraft:shooter": {
+          "def": "primal:web"
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 7,
+          "attack_interval_min": 1,
+          "attack_interval_max": 3,
+          "attack_radius": 10,
+          "speed_multiplier": 2.0,
+          "target_in_sight_time": 0.1
+        },
         "minecraft:behavior.leap_at_target": {
           "priority": 4,
           "yd": 0.4,
@@ -119,8 +130,8 @@
         "height": 0.9
       },
       "minecraft:health": {
-        "value": 16,
-        "max": 16
+        "value": 48,
+        "max": 48
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -144,7 +155,7 @@
       "minecraft:can_climb": {
       },
       "minecraft:attack": {
-        "damage": 2
+        "damage": 6
       },
       "minecraft:despawn": {
         "despawn_from_distance": {}
@@ -181,7 +192,7 @@
       "minecraft:entity_spawned": {
         "randomize": [
           {
-            "weight": 99,
+            "weight": 5,
             "remove": {},
             "add": {
               "component_groups": [

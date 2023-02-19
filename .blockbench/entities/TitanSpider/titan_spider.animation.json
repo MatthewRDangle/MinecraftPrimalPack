@@ -67,6 +67,18 @@
 					"rotation": [0, "math.abs(math.cos(query.anim_time * 76.34 + 90 * 3) * 22.92)", "-math.abs(math.sin(query.anim_time * 38.17 + 90 * 3) * 22.92)"]
 				}
 			}
+		},
+		"animation.titan_spider.web_attack": {
+			"loop": true,
+			"animation_length": 1.04,
+			"bones": {
+				"body1": {
+					"rotation": {
+						"0.0": [7.5, 0, 0],
+						"1.04": [32.5, 0, 0]
+					}
+				}
+			}
 		}
 	}
 }
