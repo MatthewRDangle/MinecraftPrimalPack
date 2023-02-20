@@ -18,6 +18,7 @@
         "impact_damage": {
           "damage": 0
         },
+        "thrown_potion_effect": { },
         "remove_on_hit": {}
       }
     },
