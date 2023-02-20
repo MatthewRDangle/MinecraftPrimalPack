@@ -1,7 +1,7 @@
 {
   "format_version": "1.10.0",
   "render_controllers": {
-    "controller.render.arrow": {
+    "controller.render.web": {
       "geometry": "geometry.default",
       "materials": [ { "*": "Material.default" } ],
       "textures": [ "texture.default" ],

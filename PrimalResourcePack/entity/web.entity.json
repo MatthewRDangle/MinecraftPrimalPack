@@ -10,10 +10,10 @@
         "default": "textures/entity/web"
       },
       "geometry": {
-        "default": "geometry.arrow"
+        "default": "geometry.web"
       },
       "animations": {
-        "move": "animation.arrow.move"
+        "move": "animation.web.move"
       },
       "scripts": {
         "pre_animation": [
@@ -24,7 +24,7 @@
           "move"
         ]
       },
-      "render_controllers": [ "controller.render.arrow" ]
+      "render_controllers": [ "controller.render.web" ]
     }
   }
 }
