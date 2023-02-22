@@ -11,9 +11,6 @@
 
     "component_groups": {
       "minecraft:spider_neutral": {
-        "minecraft:scale": {
-          "value": 2.5
-        },
         "minecraft:environment_sensor": {
           "triggers": {
             "filters": {
@@ -108,6 +105,9 @@
     },
 
     "components": {
+      "minecraft:scale": {
+        "value": 2.5
+      },
       "minecraft:is_hidden_when_invisible": {
       },
       "minecraft:experience_reward": {
